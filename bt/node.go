@@ -18,6 +18,6 @@ type IBlackboard interface {
 type Status int8
 
 const (
-	Success Status = iota
-	Failure
+	Failure Status = iota
+	Success
 )
